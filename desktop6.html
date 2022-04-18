@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+<link href="./css/main3.css" rel="stylesheet" />
+<title>Document</title>
+</head>
+<body>
+<div class="v19_498">
+<header>
+	<img class =  "logo" src="logo.jpg" style="width:65px;height:24px;"alt="">
+    <nav>
+		<ul class = "nav_links">
+			<li><a href = "desktop2.html">Home</a></li>
+            <li><a href = "#">Chats</a></li>
+			<li><a href = "#">Notifications</a></li>
+			<li><button class="dropbtn" onclick="myFunction()">My Profile<i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content" id="myDropdown">
+			<a href="desktop6.html">My profile</a>
+			<a href="#">Saved</a>
+			<a href="#">Applied jobs</a>
+			<a href="index.html">Logout</a>
+			</div></li>
+        </ul>
+    </nav>
+</header>
+</div>
+<div class="v19_524"></div>
+<span class="v19_527">Personal details</span>
+<span class="v23_7">Resume</span>
+<span class="v23_9">Social Media handles</span>
+<span class="v23_10">Education Qualification</span>
+<span class="v23_8">Video Introduction</span>
+<span class="v19_528">Name: </span>
+<span class="v23_5">Email id: </span>
+<span class="v23_11">Phone no: </span>
+<span class="v23_2">Age:</span>
+<span class="v23_4">yrs</span>
+<span class="v19_529">Tom Radder</span>
+<span class="v23_12">9867125647</span>
+<span class="v23_6">tom20@gmail.com</span>
+<span class="v23_3">24</span>
+<div class="v55_38"></div>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>
