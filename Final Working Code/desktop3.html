@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+<link href="main2.css" rel="stylesheet" />
+<title>Document</title>
+</head>
+<body>
+<div class="v17_204">
+<header>
+	<img class =  "logo" src="logo.jpg" style="width:65px;height:24px;"alt="">
+    <nav>
+		<ul class = "nav_links">
+			<li><a href = "desktop2.html">Home</a></li>
+            <li><a href = "#">Chats</a></li>
+			<li><a href = "#">Notifications</a></li>
+			<li><button class="dropbtn" onclick="myFunction()">My Profile<i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content" id="myDropdown">
+			<a href="desktop6.html">My profile</a>
+			<a href="#">Saved</a>
+			<a href="#">Applied jobs</a>
+			<a href="index.html">Logout</a>
+			</div></li>
+        </ul>
+    </nav>
+</header>
+</div>
+<span class="v17_317">Google</span>
+<div class="v17_318"></div>
+<span class="v17_319">Software developer</span>
+<span class="v17_320">Job title:</span>
+<span class="v17_321">location:</span>
+<span class="v17_322">Redmond, Washington</span>
+<span class="v17_323">Pay scale: </span>
+<span class="v17_324">100k - 140k $</span>
+<span class="v17_325">/annum</span>
+<span class="v17_326">Job Description:</span>
+<span class="v17_327">We are looking for a Computer Engineer who is able to maintain and enhance our current operating platforms and work with our application development team to integrate new applications into the network. The successful candidate will be responsible for collaborating with the Network Architect to work out the details involved with developing and implementing new network segments. He or she will also be asked to occasionally offer support to the executive staff for internal network issues and mobile computing challenges as well.</span><span class="v17_328">Eligibility:</span><span class="v17_329">Bachelor’s degree or equivalent practical experience.
+3 years of software development experience, or 1 year with an advanced degree.
+Experience in Java, C/C++, C#, Objective C, Python, JavaScript, or Go.
+Experience in web/mobile application development, Unix/Linux environments, distributed/parallel systems, information retrieval, networking, or systems/security software development.</span>
+<span class="v17_330">Responsibilities:</span>
+<span class="v17_331">Design, develop, test, deploy, maintain and improve software. Manage individual project priorities, deadlines and deliverables. Design and implement new user-facing features in Google's products.</span>
+<button class="button button1" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">APPLY NOW</button>
+<div id="light" class="white_content">You have applied for the job!<br><p style="font-size:20px">We will notify you when the results are declared</p>
+<button class="button button1" href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+<div class="v23_16">
+</div>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>
